@@ -1,0 +1,26 @@
+kind: pipeline
+name: terraform-aws-eks-readonly
+steps:
+  - commands:
+      - terraform fmt -check
+      - terraform init
+      - terraform validate
+    image: hashicorp/terraform:1.0.9
+    name: validate
+  - commands:
+      - apk add git
+      - npm install @semantic-release/changelog -D
+      - npm install @semantic-release/git -D
+      - npx semantic-release@15
+    environment:
+      GITHUB_TOKEN:
+        from_secret: github_token
+    image: node:alpine
+    name: release
+trigger:
+  branch:
+    - main
+  event:
+    - pull_request
+    - push
+type: kubernetes
