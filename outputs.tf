@@ -18,6 +18,11 @@ output "name" {
   value       = data.aws_eks_cluster.this.name
 }
 
+output "subnet_ids" {
+  description = "The subnets associated with your cluster"
+  value       = data.aws_eks_cluster.this.vpc_config[0].subnet_ids
+}
+
 output "vpc_id" {
   description = "The VPC associated with your cluster"
   value       = data.aws_eks_cluster.this.vpc_config[0].vpc_id

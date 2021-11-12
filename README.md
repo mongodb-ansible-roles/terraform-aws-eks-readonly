@@ -25,6 +25,7 @@
 | certificate\_authority | The certificate-authority-data for your cluster |
 | endpoint | The endpoint for your Kubernetes API server |
 | name | The name of the cluster |
+| subnet\_ids | The subnets associated with your cluster |
 | vpc\_id | The VPC associated with your cluster |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
