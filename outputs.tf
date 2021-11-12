@@ -20,5 +20,5 @@ output "name" {
 
 output "vpc_id" {
   description = "The VPC associated with your cluster"
-  value       = data.aws_eks_cluster.this.vpc_config.vpc_id
+  value       = data.aws_eks_cluster.this.vpc_config[0].vpc_id
 }
