@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/mongodb-ansible-roles/terraform-aws-eks-readonly/compare/v1.1.0...v1.2.0) (2021-11-12)
+
+
+### Features
+
+* add `subnet_ids` output ([e086c3b](https://github.com/mongodb-ansible-roles/terraform-aws-eks-readonly/commit/e086c3bf49670a2954d4118d10987e49fbb70d49))
+
 # [1.1.0](https://github.com/mongodb-ansible-roles/terraform-aws-eks-readonly/compare/v1.0.0...v1.1.0) (2021-11-12)
 
 
