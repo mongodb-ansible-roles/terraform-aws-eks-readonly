@@ -21,11 +21,10 @@
 
 | Name | Description |
 |------|-------------|
-| cluster\_arn | The AWS generated ARN for the Cluster resource |
-| cluster\_certificate\_authority\_data | The certificate-authority-data for your cluster |
-| cluster\_endpoint | The endpoint URL for the Cluster |
-| cluster\_name | The Name of the created EKS Cluster |
-| open\_id\_connect\_provider\_arn | The Amazon Resource Name (ARN) of the IAM OpenID Connect provider |
-| open\_id\_connect\_provider\_issuer | The issuer for OIDC Provider |
+| arn | The Amazon Resource Name (ARN) of the cluster |
+| certificate\_authority | The certificate-authority-data for your cluster |
+| endpoint | The endpoint for your Kubernetes API server |
+| name | The name of the cluster |
+| vpc\_id | The VPC associated with your cluster |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
