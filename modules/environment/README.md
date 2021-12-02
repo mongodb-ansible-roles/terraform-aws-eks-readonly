@@ -1,22 +1,17 @@
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
-| Name | Version |
-|------|---------|
-| terraform | ~> 1.0 |
-| aws | ~> 3.64.2 |
+No requirements.
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| aws | ~> 3.64.2 |
+No provider.
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| cluster\_name | The Name of the created EKS Cluster | `string` | n/a | yes |
+| env | The AWS environment | `string` | n/a | yes |
 
 ## Outputs
 
