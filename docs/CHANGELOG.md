@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/mongodb-ansible-roles/terraform-aws-eks-readonly/compare/v1.2.0...v1.3.0) (2021-12-02)
+
+
+### Features
+
+* add `environment` module ([6b649d1](https://github.com/mongodb-ansible-roles/terraform-aws-eks-readonly/commit/6b649d1f2e5df3c873bab02fd1383c6734299507))
+
 # [1.2.0](https://github.com/mongodb-ansible-roles/terraform-aws-eks-readonly/compare/v1.1.0...v1.2.0) (2021-11-12)
 
 
