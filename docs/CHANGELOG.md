@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/mongodb-ansible-roles/terraform-aws-eks-readonly/compare/v1.3.0...v1.3.1) (2021-12-03)
+
+
+### Bug Fixes
+
+* replace operator for version constraint ([176562d](https://github.com/mongodb-ansible-roles/terraform-aws-eks-readonly/commit/176562d4c3ac392729f417d35d03915803d01644))
+
 # [1.3.0](https://github.com/mongodb-ansible-roles/terraform-aws-eks-readonly/compare/v1.2.0...v1.3.0) (2021-12-02)
 
 
