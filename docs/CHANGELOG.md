@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/mongodb-ansible-roles/terraform-aws-eks-readonly/compare/v1.3.1...v1.4.0) (2021-12-03)
+
+
+### Features
+
+* add OpenID Connect provider outputs ([cf7b493](https://github.com/mongodb-ansible-roles/terraform-aws-eks-readonly/commit/cf7b4931eaad63db0d3435bb75632836b83c8a5a))
+
 ## [1.3.1](https://github.com/mongodb-ansible-roles/terraform-aws-eks-readonly/compare/v1.3.0...v1.3.1) (2021-12-03)
 
 
